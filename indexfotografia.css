@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecalho {
+    background-color: bisque;
+    height: 100px;
+    display: flex;
+}
+
+.logotipo{
+    height: auto;
+    width: 250px;  
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin: 20px;
+}
+
+.botaocomecegratis {
+
+    display: flex;
+}
+
+.comecegratis {
+    background-color: rgb(157, 218, 164);
+    height: 70px;
+    width: 200px;
+    color: aliceblue;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.comecegratis:hover{
+    background-color: rgb(120, 50, 185);
+
+}

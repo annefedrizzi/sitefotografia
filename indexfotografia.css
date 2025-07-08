@@ -4,14 +4,19 @@
 }
 
 .cabecalho {
-    background-color: bisque;
+    background-color: hsl(30, 60%, 98%);
     height: 100px;
     display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: space-between;
+    color: #462e80;
+
 }
 
 .logotipo{
     height: auto;
-    width: 250px;  
+    width: 150px;  
 }
 
 ul {
@@ -23,21 +28,43 @@ li {
     margin: 20px;
 }
 
-.botaocomecegratis {
+li:active {
+    color: #ec348d;
+}
 
+.botaocomecegratis {
     display: flex;
+    align-items: center;
 }
 
 .comecegratis {
-    background-color: rgb(157, 218, 164);
-    height: 70px;
-    width: 200px;
+    background-color: #54beaa;
+    height: 40px;
+    width: 150px;
     color: aliceblue;
     border: 0px;
     border-radius: 10px;
+    margin-left: 20px;
+    font-weight: bold;
 }
 
 .comecegratis:hover{
-    background-color: rgb(120, 50, 185);
+    background-color:#462e80;  
 
 }
+
+.menu {
+    display: flex;
+    align-items: center;
+    color:rgb(77, 16, 134)
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    font-weight: bold;
+    font-size: 15px;
+}
+
